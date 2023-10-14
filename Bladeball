@@ -1,0 +1,141 @@
+local notificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/laagginq/ui-libraries/main/xaxas-notification/src.lua"))();
+local notifications = notificationLibrary.new({
+NotificationLifetime = 1.5, 
+NotificationPosition = "Middle",
+
+TextFont = Enum.Font.Code,
+TextColor = Color3.fromRGB(255, 255, 255),
+TextSize = 17,
+
+TextStrokeTransparency = 0, 
+TextStrokeColor = Color3.fromRGB(0, 0, 0)
+});
+
+--
+
+local NotifyLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
+local Notify = NotifyLibrary.Notify
+
+--------------------------------------------
+
+
+repeat
+wait()
+until game:IsLoaded()
+
+
+if true then
+--// Not
+notifications:BuildNotificationUI();
+notifications:Notify("Hold Block To Spam Loading...");
+wait(1.5)
+notifications:Notify("%1");
+wait(0.1)
+notifications:Notify("%2");
+wait(0.1)
+notifications:Notify("%3");
+wait(0.1)
+notifications:Notify("%4");
+wait(0.1)
+notifications:Notify("%5");
+wait(0.1)
+notifications:Notify("%6");
+wait(0.1)
+notifications:Notify("%7");
+wait(0.1)
+notifications:Notify("%8");
+wait(0.1)
+notifications:Notify("%9");
+wait(0.1)
+notifications:Notify("%10");
+wait(0.1)
+notifications:Notify("%11");
+wait(0.1)
+notifications:Notify("%12");
+wait(0.1)
+notifications:Notify("%13");
+wait(0.1)
+notifications:Notify("%14");
+wait(0.1)
+notifications:Notify("%15");
+wait(0.1)
+notifications:Notify("%16");
+wait(0.1)
+notifications:Notify("%17");
+wait(0.1)
+notifications:Notify("%18");
+wait(0.1)
+notifications:Notify("%19");
+wait(0.1)
+notifications:Notify("%20");
+wait(0.1)
+notifications:Notify("%21");
+wait(0.1)
+notifications:Notify("%22");
+wait(0.1)
+notifications:Notify("%23");
+wait(0.1)
+notifications:Notify("%24");
+wait(0.1)
+notifications:Notify("%15");
+wait(0.1)
+notifications:Notify("%26");
+wait(0.1)
+notifications:Notify("%27");
+wait(0.1)
+notifications:Notify("%28");
+wait(0.1)
+notifications:Notify("%29");
+wait(0.1)
+notifications:Notify("%30");
+wait(0.1)
+notifications:Notify("%31");
+wait(0.1)
+notifications:Notify("%32");
+wait(0.1)
+notifications:Notify("%33");
+wait(0.1)
+notifications:Notify("%34");
+wait(0.1)
+notifications:Notify("%35");
+wait(0.1)
+notifications:Notify("%36");
+wait(0.1)
+notifications:Notify("%37");
+wait(0.1)
+notifications:Notify("%39");
+wait(0.1)
+notifications:Notify("%40");
+wait(0.1)
+notifications:Notify("%41");
+wait(0.1)
+notifications:Notify("%42");
+wait(0.1)
+notifications:Notify("%63");
+wait(0.1)
+notifications:Notify("%68");
+wait(0.1)
+notifications:Notify("%73");
+wait(0.1)
+notifications:Notify("%89");
+wait(0.1)
+notifications:Notify("%90");
+wait(0.1)
+notifications:Notify("%91");
+wait(0.1)
+notifications:Notify("%92");
+wait(0.1)
+notifications:Notify("%95");
+wait(0.1)
+notifications:Notify("%98");
+wait(0.1)
+notifications:Notify("%99");
+wait(2.1)
+notifications:Notify("%100");
+wait(0.1)
+notifications:Notify("Hold Block To Spam Loaded! ");
+wait(1.8)
+end
+
+getgenv().SpamSpeed = 1
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Spam",true))()
